@@ -1,0 +1,27 @@
+class rectangle
+{
+ int l=10;
+ int b=5;
+ int a=l*b;
+ int p=2*(l+b);
+  void area()
+{
+
+ System.out.println("Area is :"+a);
+
+}
+
+ void per()
+{
+ System.out.println("Perimeter is :"+p);
+}
+
+ public static void  main(String args[])
+{
+  rectangle fobj =new rectangle();
+  System.out.println(fobj.a);
+  System.out.println(fobj.p);
+  fobj.area();
+  fobj.per();
+ }
+}
