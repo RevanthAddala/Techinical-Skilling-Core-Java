@@ -1,0 +1,14 @@
+class first
+{
+ int a=10;
+ void disp()
+ {
+   System.out.println("Value of a is: "+a);
+ }
+ public static void main(String args[])
+ {
+   first pobj = new first();
+   System.out.println(pobj.a);
+   pobj.disp();
+ }
+}
